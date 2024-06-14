@@ -2,7 +2,7 @@
   constructor(id) {
     this.id = id;
     this.parent = document.getElementById(id);
-    this.BASE_URL = "https://lowcodedev.azurewebsites.net/api";
+    this.BASE_URL = "http://localhost:5037/api";
     this.config;
     this.prevBtn = this.parent.querySelector("#prevBtn");
     this.nextBtn = this.parent.querySelector("#nextBtn");
@@ -1144,7 +1144,7 @@ class Calendar {
     this.userId = 1;
     this.projectId = 131;
     this.parent = document.getElementById(id);
-    this.BASE_URL = `https://lowcodedev.azurewebsites.net/api/${this.userId}/Project/${this.projectId}/`;
+    this.BASE_URL = `http://localhost:5037/api/${this.userId}/Project/${this.projectId}/`;
     this.config;
     // this.prevBtn = this.parent.querySelector("#prevBtn");
     // this.nextBtn = this.parent.querySelector("#nextBtn");
