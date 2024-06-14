@@ -1,5 +1,5 @@
-const baseUrl = "http://localhost:5037/api"; 
-const authToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiZW1haWwiOiJ0aGlhZ2FyYWphbkBpbm5jcmV3aW4uY29tIiwiaWQiOiIxIiwiZXhwIjoxNzE4MzU2MjIyfQ.XCWaS3572IkEWiFyyZ5eMWJO0RIrAtcCCTepPZCvyHM";
+const baseUrl = "https://lowcodedev.azurewebsites.net/api"; 
+const authToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiZW1haWwiOiJ0aGlhZ2FyYWphbkBpbm5jcmV3aW4uY29tIiwiaWQiOiIxIiwiZXhwIjoxNzE4MzYxMjk4fQ.AcrG-fjYzI05EPf2RO5rlOZP_DINZF5J5jZYnmuHA54";
 const userId = 1;
 const projectId = 131;
 
